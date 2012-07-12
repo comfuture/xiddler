@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var path = require('path'),
+    fs = require('fs'),
+    base = path.join(path.dirname(fs.realpathSync(__filename)), '..'),
+    coffee = require(base + '/node_modules/coffee-script'),
+    Xiddler = require(base + '/src/xiddler').Xiddler
+
+var app = new Xiddler();
+app.run();

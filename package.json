@@ -1,0 +1,19 @@
+{
+	"name": "xiddler",
+	"description": "a debug proxy tool, web interface port of fiddler for osx",
+	"author": "Changkyun Kim <comfuture@gmail.com>",
+	"version": "0.1.0",
+	"licenses": [{
+		"type": "MIT"
+	}],
+	"bin": {
+		"xiddler": "./bin/xiddler"
+	},
+	"dependencies": {
+		"coffee-script": ">=1.3",
+		"http-proxy": ">=0.8.1",
+		"express": ">=2.5",
+		"socket.io": ">=0.9.6",
+		"nstore": ""
+	}
+}
