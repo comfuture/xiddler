@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Xiddler - The debugging proxy</title>
+	<link rel="stylesheet" href="/xiddler.css" />
+	<link rel="stylesheet" href="/aristo/aristo.css" />
+	<script src="/g.js" type="text/javascript">
+		g.use('jquery', 'jquery-ui');
+		g.resource('/aristo/aristo.css');
+		/*
+		g.resource('/static/xiddler.js')
+
+		(function() {
+		 	g.xiddlerApp = new Xiddler()
+		});
+		 */
+
+		g(function() {
+			$('button').button();
+		});
+	</script>
+</head>
+<body>
+	<header class="ui-layout-north">
+		<button>Button1</button>
+		<button>Button2</button>
+		<button>Button3</button>
+	</header>
+	<section id="logPane" class="ui-layout-west">
+	</section>
+	<section class="ui-layout-center">
+	</section>
+</body>
+</html>
