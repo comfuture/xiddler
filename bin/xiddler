@@ -4,7 +4,7 @@ var path = require('path'),
     fs = require('fs'),
     base = path.join(path.dirname(fs.realpathSync(__filename)), '..'),
     coffee = require(base + '/node_modules/coffee-script'),
-    Xiddler = require(base + '/src/xiddler').Xiddler
+    Xiddler = require(base + '/lib').Xiddler
 
 var app = new Xiddler();
 app.run();
