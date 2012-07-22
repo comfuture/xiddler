@@ -1,0 +1,4 @@
+{
+	"NETWORK_INTERFACES": ["Ethernet", "Wi-Fi"],
+	"PORT": 8000
+}
