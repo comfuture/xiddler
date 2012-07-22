@@ -59,7 +59,7 @@ class Xiddler
 
     # disable proxy on program quit
     process.on 'SIGINT', ->
-      sh 'networksetup', ['-setwebproxystate', 'Ethernet', 'off']
+      sh 'networksetup', ['-setwebproxystate', NETWORK, 'off']
       process.exit()
 
   startWebUI: ->
