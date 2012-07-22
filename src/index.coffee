@@ -8,7 +8,7 @@ url = require 'url'
 fs = require 'fs'
 
 class Xiddler
-  NETWORK = 'Ethernet'
+  NETWORK = 'Wi-Fi' # 'Ethernet'
   PROXY_PORT = 8000
   UI_PORT = 9999
 
